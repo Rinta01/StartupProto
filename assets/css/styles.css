@@ -17,6 +17,7 @@ a:hover{
     opacity: 1;
 }
 header{
+    z-index: 1;
     position: absolute;
     width: 100%;
     display: flex;
@@ -67,6 +68,7 @@ section{
 }
 
 .hero{
+    z-index: 0;
     position: relative;
     justify-content: center;
     text-align: center;
